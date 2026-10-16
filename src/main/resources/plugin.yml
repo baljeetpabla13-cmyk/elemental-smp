@@ -1,0 +1,18 @@
+name: ElementalSMP
+version: 1.0.0
+main: com.xazymc.elementalsmp.ElementalSMP
+api-version: '1.21.11'
+author: XazyMC
+description: Four elemental paths with PvP abilities, survival passives and discoverable scrolls.
+commands:
+  element:
+    description: View your element, skills and mastery.
+    usage: /element [skills|mastery|scrolls]
+  elementadmin:
+    description: Admin tools for Elemental SMP.
+    usage: /elementadmin <assign|reset|scroll|reload>
+    permission: elementalsmp.admin
+permissions:
+  elementalsmp.admin:
+    description: Allows administration of Elemental SMP.
+    default: op
