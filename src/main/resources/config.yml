@@ -1,0 +1,42 @@
+# Elemental SMP settings. Damage is in Minecraft health points (2 = one heart).
+assignment:
+  enabled: true
+  equal-chances: true
+combat:
+  abilities-enabled: true
+  combo-window-seconds: 3
+  combo-mastery-every: 5
+  pvp-only-abilities: false
+passives:
+  fire-auto-smelt: true
+  earth-mining-speed: true
+  earth-mining-levels: 1
+  water-swim-speed: true
+  air-double-jump: true
+  air-double-jump-cooldown-seconds: 2
+scrolls:
+  enabled: true
+  duplicate-mastery: 10
+  drop-chance-percent: 5.0
+  legendary-drop-chance-percent: 1.0
+  # Scrolls are generated as custom named paper items; loot integration can be expanded later.
+cooldowns:
+  ember-shot: 4
+  flame-dash: 8
+  fire-sweep: 10
+  blazing-counter: 14
+  stone-shot: 5
+  fault-line: 9
+  raise-wall: 14
+  grounded-stance: 15
+  water-whip: 4
+  undertow: 10
+  ice-step: 9
+  mist-veil: 16
+  gust-shot: 4
+  air-dash: 7
+  cyclone-sweep: 10
+  deflect: 15
+  ultimate: 60
+messages:
+  prefix: '&8[&bElemental&8] &r'
