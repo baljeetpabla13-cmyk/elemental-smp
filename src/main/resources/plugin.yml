@@ -1,7 +1,7 @@
 name: ElementalSMP
 version: 1.0.0
 main: com.xazymc.elementalsmp.ElementalSMP
-api-version: '1.21.11'
+api-version: '1.21'
 author: XazyMC
 description: Four elemental paths with PvP abilities, survival passives and discoverable scrolls.
 commands:
